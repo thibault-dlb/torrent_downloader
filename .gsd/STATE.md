@@ -3,9 +3,9 @@
 > Last Updated: 2026-03-03
 
 ## Current Position
-- **Phase**: 1 (completed)
-- **Task**: Phase 1 execution verified
-- **Status**: Ready for Phase 2
+- **Phase**: 2 (Moteur Torrent - Libtorrent)
+- **Task**: Planning complete
+- **Status**: Ready for execution
 
 ## Last Session Summary
 Phase 1 exécutée avec succès. 
@@ -15,10 +15,11 @@ Phase 1 exécutée avec succès.
 - Création de `utils.py` et mise à jour de `config.py` et `cli.py`.
 
 ## Next Steps
-1. /plan 2 (Moteur Torrent - Libtorrent)
+1. /execute 2
 
 ## Decisions Log
 | Date | Decision | Rationale |
 |------|----------|-----------|
 | 2026-03-03 | Map codebase | Existing code detected in `cinecli/` directory. |
 | 2026-03-03 | Phase 1: Winreg for VLC | More robust than simple file check on Windows. |
+| 2026-03-03 | Phase 2: Libtorrent | Sequential download support for direct streaming. |

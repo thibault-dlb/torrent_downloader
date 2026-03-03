@@ -16,7 +16,7 @@
 **Requirements**: REQ-03, REQ-05, REQ-09
 
 ### Phase 2: Moteur Torrent (Libtorrent)
-**Status**: ⬜ Not Started
+**Status**: 🚧 In Progress
 **Objective**: Implémenter la logique de téléchargement séquentiel et les barres de progression.
 **Exigences**: REQ-01, REQ-02, REQ-08
 
