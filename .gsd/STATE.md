@@ -3,19 +3,19 @@
 > Last Updated: 2026-03-03
 
 ## Current Position
-- **Phase**: 2 (Moteur Torrent - Libtorrent)
-- **Task**: Planning complete
-- **Status**: Ready for execution
+- **Phase**: 2 (completed)
+- **Task**: Phase 2 execution verified
+- **Status**: Ready for Phase 3
 
 ## Last Session Summary
-Phase 1 exécutée avec succès. 
-- La configuration supporte désormais les dossiers permanent/temporaire.
-- VLC est détecté automatiquement sur Windows via le registre.
-- La CLI propose un assistant de premier lancement.
-- Création de `utils.py` et mise à jour de `config.py` et `cli.py`.
+Phase 2 exécutée avec succès (incluant un rétrogradage Python).
+- Passage à Python 3.12 et correction des DLL libtorrent avec OpenSSL 1.1.1.
+- Implémentation du moteur interne `TorrentDownloader` (libtorrent v2) avec DHT.
+- Intégration de `rich.progress` pour le suivi des téléchargements.
+- `cli.py` prend désormais en charge les modes Regarder (temp) et Télécharger (permanent), ainsi que le nettoyage automatique.
 
 ## Next Steps
-1. /execute 2
+1. /plan 3 (Intégration VLC & Streaming)
 
 ## Decisions Log
 | Date | Decision | Rationale |
