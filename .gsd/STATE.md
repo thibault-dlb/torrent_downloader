@@ -3,18 +3,18 @@
 > Last Updated: 2026-03-03
 
 ## Current Position
-- **Phase**: 4 (Gestion des Modes & Nettoyage)
-- **Task**: Planning complete
-- **Status**: Ready for execution
+- **Phase**: 4 (completed)
+- **Task**: Project Finalized
+- **Status**: v0.2.0 Milestone Reached
 
 ## Last Session Summary
-Phase 3 exécutée avec succès (intégration VLC & Streaming).
-Nous entamons la Phase 4, ultime étape du projet consistant à vérifier la propreté du code :
-- Suppression de l'ancien code mort (Transmission, ouverture magnets externes).
-- Mise à jour de la documentation pour que `typer` reflète le changement comportemental.
+Phase 4 exécutée. Le projet est entièrement finalisé.
+- Suppression de l'ancienne logique de gestion des torrents (Transmission, Browser).
+- Mise à jour du `README.md` avec de nouvelles descriptions des modes et du moteur interne.
+- Validation intégrale des critères de la spécification `SPEC.md`.
 
 ## Next Steps
-1. /execute 4
+- Fin du développement (v0.2.0).
 
 ## Decisions Log
 | Date | Decision | Rationale |

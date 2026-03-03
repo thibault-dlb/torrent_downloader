@@ -16,12 +16,12 @@
 **Requirements**: REQ-03, REQ-05, REQ-09
 
 ## Current Position
-- **Phase**: 4 (Gestion des Modes & Nettoyage)
-- **Task**: Planning complete
-- **Status**: Ready for execution
+- **Phase**: 4 (completed)
+- **Task**: Phase 4 execution verified
+- **Status**: Milestone v0.2.0 Complete!
 
 ## Next Steps
-1. /execute 4
+- Le projet est terminé selon la SPEC.md.
 
 ### Phase 2: Moteur Torrent (Libtorrent)
 **Status**: ✅ Complete
@@ -34,7 +34,7 @@
 **Exigences**: REQ-04, REQ-06
 
 ### Phase 4: Gestion des Modes & Nettoyage
-**Status**: 🚧 In Progress
+**Status**: ✅ Complete
 **Objective**: Finaliser les modes (Regarder/Télécharger/Les deux) et la gestion des fichiers.
 **Exigences**: REQ-07
 
