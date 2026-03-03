@@ -3,19 +3,18 @@
 > Last Updated: 2026-03-03
 
 ## Current Position
-- **Phase**: 2 (completed)
-- **Task**: Phase 2 execution verified
-- **Status**: Ready for Phase 3
+- **Phase**: 3 (Intégration VLC & Streaming)
+- **Task**: Planning complete
+- **Status**: Ready for execution
 
 ## Last Session Summary
-Phase 2 exécutée avec succès (incluant un rétrogradage Python).
-- Passage à Python 3.12 et correction des DLL libtorrent avec OpenSSL 1.1.1.
-- Implémentation du moteur interne `TorrentDownloader` (libtorrent v2) avec DHT.
-- Intégration de `rich.progress` pour le suivi des téléchargements.
-- `cli.py` prend désormais en charge les modes Regarder (temp) et Télécharger (permanent), ainsi que le nettoyage automatique.
+Phase 2 exécutée avec succès. Le moteur libtorrent est en place avec l'UI de progression.
+Nous avons maintenant planifié la Phase 3 :
+- Pre-buffering et priorisation du streaming (Plan 3.1)
+- Arrêt propre du torrent sur fermeture de VLC et nettoyage sécurisé Windows (Plan 3.2)
 
 ## Next Steps
-1. /plan 3 (Intégration VLC & Streaming)
+1. /execute 3
 
 ## Decisions Log
 | Date | Decision | Rationale |
