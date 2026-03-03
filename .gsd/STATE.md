@@ -3,18 +3,18 @@
 > Last Updated: 2026-03-03
 
 ## Current Position
-- **Phase**: 3 (completed)
-- **Task**: Phase 3 execution verified
-- **Status**: Ready for Phase 4
+- **Phase**: 4 (Gestion des Modes & Nettoyage)
+- **Task**: Planning complete
+- **Status**: Ready for execution
 
 ## Last Session Summary
-Phase 3 exécutée avec succès.
-- Ajout du pre-buffering (attente de 2% de téléchargement avant lancement VLC).
-- Priorisation algorithmique dans `libtorrent` pour la lecture fluide du MP4/MKV (en-têtes).
-- Gestion complète du cycle de vie de `vlc.exe`, annulant le téléchargement inutile en cas de fermeture et garantissant un nettoyage robuste sans Windows `PermissionError`.
+Phase 3 exécutée avec succès (intégration VLC & Streaming).
+Nous entamons la Phase 4, ultime étape du projet consistant à vérifier la propreté du code :
+- Suppression de l'ancien code mort (Transmission, ouverture magnets externes).
+- Mise à jour de la documentation pour que `typer` reflète le changement comportemental.
 
 ## Next Steps
-1. /plan 4 (Gestion des Modes & Nettoyage)
+1. /execute 4
 
 ## Decisions Log
 | Date | Decision | Rationale |

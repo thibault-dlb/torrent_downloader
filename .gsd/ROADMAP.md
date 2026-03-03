@@ -16,12 +16,12 @@
 **Requirements**: REQ-03, REQ-05, REQ-09
 
 ## Current Position
-- **Phase**: 3 (completed)
-- **Task**: Phase 3 execution verified
-- **Status**: Ready for Phase 4
+- **Phase**: 4 (Gestion des Modes & Nettoyage)
+- **Task**: Planning complete
+- **Status**: Ready for execution
 
 ## Next Steps
-1. /plan 4 (Gestion des Modes & Nettoyage)
+1. /execute 4
 
 ### Phase 2: Moteur Torrent (Libtorrent)
 **Status**: ✅ Complete
