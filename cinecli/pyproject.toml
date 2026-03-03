@@ -51,3 +51,6 @@ Issues = "https://github.com/eyeblech/cinecli/issues"
 
 [project.scripts]
 cinecli = "cinecli.cli:app"
+
+[tool.setuptools.package-data]
+cinecli = ["dlls/*.dll"]

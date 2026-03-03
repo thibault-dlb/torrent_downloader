@@ -37,7 +37,6 @@ def main():
     """
     Vérifie la configuration au démarrage.
     """
-    global config_data
     if not config_data.get("permanent_path"):
         console.print("[yellow]👋 Bienvenue dans CineCLI ![/yellow]")
         console.print("Il semble que ce soit votre premier lancement.")
@@ -74,7 +73,6 @@ def config_cmd(
     """
     Gérer la configuration de CineCLI
     """
-    global config_data
     updated = False
     
     if path:
