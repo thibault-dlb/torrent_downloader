@@ -16,12 +16,12 @@
 **Requirements**: REQ-03, REQ-05, REQ-09
 
 ## Current Position
-- **Phase**: 3 (Intégration VLC & Streaming)
-- **Task**: Planning complete
-- **Status**: Ready for execution
+- **Phase**: 3 (completed)
+- **Task**: Phase 3 execution verified
+- **Status**: Ready for Phase 4
 
 ## Next Steps
-1. /execute 3
+1. /plan 4 (Gestion des Modes & Nettoyage)
 
 ### Phase 2: Moteur Torrent (Libtorrent)
 **Status**: ✅ Complete
@@ -29,12 +29,12 @@
 **Exigences**: REQ-01, REQ-02, REQ-08
 
 ### Phase 3: Intégration VLC & Streaming
-**Status**: 🚧 In Progress
+**Status**: ✅ Complete
 **Objective**: Lancer VLC sur le fichier en cours de téléchargement et gérer les processus.
 **Exigences**: REQ-04, REQ-06
 
 ### Phase 4: Gestion des Modes & Nettoyage
-**Status**: ⬜ Not Started
+**Status**: 🚧 In Progress
 **Objective**: Finaliser les modes (Regarder/Télécharger/Les deux) et la gestion des fichiers.
 **Exigences**: REQ-07
 

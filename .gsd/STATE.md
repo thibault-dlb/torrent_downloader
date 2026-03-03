@@ -3,18 +3,18 @@
 > Last Updated: 2026-03-03
 
 ## Current Position
-- **Phase**: 3 (Intégration VLC & Streaming)
-- **Task**: Planning complete
-- **Status**: Ready for execution
+- **Phase**: 3 (completed)
+- **Task**: Phase 3 execution verified
+- **Status**: Ready for Phase 4
 
 ## Last Session Summary
-Phase 2 exécutée avec succès. Le moteur libtorrent est en place avec l'UI de progression.
-Nous avons maintenant planifié la Phase 3 :
-- Pre-buffering et priorisation du streaming (Plan 3.1)
-- Arrêt propre du torrent sur fermeture de VLC et nettoyage sécurisé Windows (Plan 3.2)
+Phase 3 exécutée avec succès.
+- Ajout du pre-buffering (attente de 2% de téléchargement avant lancement VLC).
+- Priorisation algorithmique dans `libtorrent` pour la lecture fluide du MP4/MKV (en-têtes).
+- Gestion complète du cycle de vie de `vlc.exe`, annulant le téléchargement inutile en cas de fermeture et garantissant un nettoyage robuste sans Windows `PermissionError`.
 
 ## Next Steps
-1. /execute 3
+1. /plan 4 (Gestion des Modes & Nettoyage)
 
 ## Decisions Log
 | Date | Decision | Rationale |
