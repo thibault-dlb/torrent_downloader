@@ -9,11 +9,14 @@ Codebase mapping complete for CineCLI.
 - Identified missing tests and hardcoded configurations as technical debt
 - Documented system design in ARCHITECTURE.md and STACK.md
 
-## Current Focus
-Initial project setup and planning.
+## Current Position
+- **Phase**: 1 (Socle Technique & Configuration)
+- **Task**: Planning complete
+- **Status**: Ready for execution
 
 ## Next Steps
-1. Return to `/new-project` flow.
+1. /execute 1
+to `/new-project` flow.
 2. Define project vision and requirements.
 3. Create ROADMAP.md.
 
