@@ -1,6 +1,6 @@
 # ROADMAP.md
 
-> **Current Phase**: Phase 1: Foundation & Specs
+> **Current Phase**: Phase 2: Moteur Torrent (Libtorrent)
 > **Milestone**: v0.2.0 (Streaming Client)
 
 ## Incontournables (depuis SPEC)
@@ -11,23 +11,23 @@
 ## Phases
 
 ### Phase 1: Socle Technique & Configuration
-**Status**: 🚧 In Progress
-**Objectif**: Mettre à jour la configuration et préparer l'environnement libtorrent.
-**Exigences**: REQ-03, REQ-05, REQ-09
+**Status**: ✅ Complete
+**Objective**: Mettre à jour la configuration et préparer l'environnement libtorrent.
+**Requirements**: REQ-03, REQ-05, REQ-09
 
 ### Phase 2: Moteur Torrent (Libtorrent)
 **Status**: ⬜ Not Started
-**Objectif**: Implémenter la logique de téléchargement séquentiel et les barres de progression.
+**Objective**: Implémenter la logique de téléchargement séquentiel et les barres de progression.
 **Exigences**: REQ-01, REQ-02, REQ-08
 
 ### Phase 3: Intégration VLC & Streaming
 **Status**: ⬜ Not Started
-**Objectif**: Lancer VLC sur le fichier en cours de téléchargement et gérer les processus.
+**Objective**: Lancer VLC sur le fichier en cours de téléchargement et gérer les processus.
 **Exigences**: REQ-04, REQ-06
 
 ### Phase 4: Gestion des Modes & Nettoyage
 **Status**: ⬜ Not Started
-**Objectif**: Finaliser les modes (Regarder/Télécharger/Les deux) et la gestion des fichiers.
+**Objective**: Finaliser les modes (Regarder/Télécharger/Les deux) et la gestion des fichiers.
 **Exigences**: REQ-07
 
 ### Phase 5: Polissage & Validation
